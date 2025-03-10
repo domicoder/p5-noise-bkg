@@ -30,14 +30,8 @@ onUnmounted(() => {
 </script>
 
 <template>
-    <div ref="el" class="p5-noise-bkg" />
+    <div
+        ref="el"
+        style="pointer-events: none; position: fixed; inset: 0; z-index: -1"
+    />
 </template>
-
-<style lang="css">
-.p5-noise-bkg {
-    pointer-events: none;
-    position: fixed;
-    inset: 0;
-    z-index: -1;
-}
-</style>

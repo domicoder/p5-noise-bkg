@@ -1,6 +1,6 @@
 {
     "name": "p5-noise-bkg",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "description": "",
     "type": "module",
     "main": "dist/p5-noise-bkg.umd.js",

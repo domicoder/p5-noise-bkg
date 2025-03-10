@@ -1,0 +1,27 @@
+.cache
+.DS_Store
+.idea
+*.log
+*.tgz
+.temp
+.nuxt
+dist
+cache
+temp
+logs
+lib-cov
+coverage
+temp
+tmp
+
+# Node dependencies
+node_modules
+
+# Local env files
+.env
+.env.*
+!.env.example
+
+# Editor directories and files
+.vscode
+.vscode/*s

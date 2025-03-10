@@ -4,7 +4,6 @@ import type p5Types from 'p5';
 import {
     createSketch,
     removeP5Instance,
-    handleResize,
     addResizeListener,
     removeResizeListener,
 } from './utils/P5NoiseBkgUtils';

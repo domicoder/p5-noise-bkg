@@ -36,5 +36,9 @@
     },
     "files": [
         "dist"
-    ]
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/domicoder/p5-noise-bkg.git"
+    }
 }

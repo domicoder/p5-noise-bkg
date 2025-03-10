@@ -47,7 +47,7 @@ describe('P5NoiseBkg Component', () => {
     it('has a fixed positioned div', () => {
         const wrapper = mount(P5NoiseBkg);
         const div = wrapper.find('div');
-        expect(div.attributes('class')).toContain('p5-noise-bkg');
+        expect(div.attributes('style')).toContain('position: fixed');
     });
 
     it('getForceOnPoint() returns a valid angle', () => {
